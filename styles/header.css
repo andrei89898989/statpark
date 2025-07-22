@@ -8,10 +8,11 @@
 .header__top
 {
     display: flex;
-    background-color: #f8f8f8;
     padding-top: 11px;
     padding-bottom: 13px;
 }
+
+.background { background-color: #f8f8f8; }
 
 .header__top-city
 {
@@ -115,3 +116,54 @@ button
     text-align: center;
     color: #1d1d1b;
 }
+
+.header__bottom
+{
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom-catalog
+{
+    padding: 16px;
+    background-color: #E0001B;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 24px;
+}
+
+.header__bottom-catalog span
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.header__bottom-nav
+{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header__bottom-link
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #1d1d1b;
+}
+
+.header__bottom-nav .header__bottom-link:nth-child(2)
+{
+    background-color: #fafafa;
+    padding: 16px 16px 16px 24px;
+}
+
+.header__bottom-nav .header__bottom-link:nth-child(5){ color:red; }
